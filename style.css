@@ -9,6 +9,12 @@
     transition: color .5s;
 }
 .navbar-toggler {
-    border-color: rgba(255, 255, 255, 1);
-    
+    border-color: rgba(255, 255, 255, 1); 
+}
+.hero {
+    background: url(images/Veterans-Day19_0176.jpg);
+    height: 70vh;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
