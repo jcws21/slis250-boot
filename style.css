@@ -1,15 +1,20 @@
-/*** Custom Styles ***/
+.navbar {
+    background: rgba(0, 0, 0, .7);
+}
+.nav-link, .navbar-brand {
+    color: rgba(255, 255, 255, 1);
+}
+.nav-link:focus, .nav-link:hover {
+    color: rgba(255, 203, 5, 1);
+    transition: color .5s;
+}
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 1); 
+}
 .hero {
     background: url(images/Veterans-Day19_0176.jpg);
-    height: 100vh;
+    height: 70vh;
+    background-position: left bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: left bottom;
-    background-attachment: fixed;
-}
-.banner {
-   
-    background-color: rgba(0, 0, 0, .6);
-    padding: 2rem;
-    color: rgba(255, 255, 255, 1);
 }
