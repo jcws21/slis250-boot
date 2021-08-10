@@ -13,11 +13,12 @@
 }
 .hero {
     background: url(images/Veterans-Day19_0176.jpg);
-    
     background-position: left bottom;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    
+    height: 90vh;
 }
 .hero-content {
     background-color: aqua;
